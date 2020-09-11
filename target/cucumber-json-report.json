@@ -1,0 +1,246 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9619422300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.open()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Grocery Shopping",
+        "description": "",
+        "id": "user-want-to-do-grocery-shopping;grocery-shopping;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 100627000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDefProducts.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3346706000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User search for the \"Milk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Milk",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefProducts.user_search_for_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1076151500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select the required product",
+            "match": {
+              "location": "StepDefProducts.select_the_required_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should put selected items in baskets.",
+            "match": {
+              "location": "StepDefProducts.user_should_put_selected_items_in_baskets()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8073793400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.open()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Grocery Shopping",
+        "description": "",
+        "id": "user-want-to-do-grocery-shopping;grocery-shopping;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11302800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDefProducts.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3291158300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User search for the \"Butter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Butter",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefProducts.user_search_for_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 871253900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select the required product",
+            "match": {
+              "location": "StepDefProducts.select_the_required_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should put selected items in baskets.",
+            "match": {
+              "location": "StepDefProducts.user_should_put_selected_items_in_baskets()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8839240600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.open()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Grocery Shopping",
+        "description": "",
+        "id": "user-want-to-do-grocery-shopping;grocery-shopping;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5056000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDefProducts.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2970345400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User search for the \"Bread\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bread",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefProducts.user_search_for_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 721933400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select the required product",
+            "match": {
+              "location": "StepDefProducts.select_the_required_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should put selected items in baskets.",
+            "match": {
+              "location": "StepDefProducts.user_should_put_selected_items_in_baskets()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User want to do grocery shopping",
+    "description": "",
+    "id": "user-want-to-do-grocery-shopping",
+    "keyword": "Feature",
+    "uri": "C:/Users/bhupe/Morrisons/src/test/Resources/search.feature"
+  }
+]

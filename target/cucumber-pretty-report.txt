@@ -1,0 +1,27 @@
+Feature: User want to do grocery shopping
+
+  Scenario Outline: Grocery Shopping                [90m# C:/Users/bhupe/Morrisons/src/test/Resources/search.feature:3[0m
+    [36mGiven [0m[36mUser is on homepage[0m
+    [36mWhen [0m[36mUser search for the "<Products>"[0m
+    [36mAnd [0m[36mselect the required product[0m
+    [36mThen [0m[36mUser should put selected items in baskets.[0m
+
+    Examples: 
+
+  Scenario Outline: Grocery Shopping                [90m# C:/Users/bhupe/Morrisons/src/test/Resources/search.feature:11[0m
+    [32mGiven [0m[32mUser is on homepage[0m                       [90m# StepDefProducts.user_is_on_homepage()[0m
+    [32mWhen [0m[32mUser search for the "[0m[32m[1mMilk[0m[32m"[0m                 [90m# StepDefProducts.user_search_for_the(String)[0m
+    [32mAnd [0m[32mselect the required product[0m                 [90m# StepDefProducts.select_the_required_product()[0m
+    [32mThen [0m[32mUser should put selected items in baskets.[0m [90m# StepDefProducts.user_should_put_selected_items_in_baskets()[0m
+
+  Scenario Outline: Grocery Shopping                [90m# C:/Users/bhupe/Morrisons/src/test/Resources/search.feature:12[0m
+    [32mGiven [0m[32mUser is on homepage[0m                       [90m# StepDefProducts.user_is_on_homepage()[0m
+    [32mWhen [0m[32mUser search for the "[0m[32m[1mButter[0m[32m"[0m               [90m# StepDefProducts.user_search_for_the(String)[0m
+    [32mAnd [0m[32mselect the required product[0m                 [90m# StepDefProducts.select_the_required_product()[0m
+    [32mThen [0m[32mUser should put selected items in baskets.[0m [90m# StepDefProducts.user_should_put_selected_items_in_baskets()[0m
+
+  Scenario Outline: Grocery Shopping                [90m# C:/Users/bhupe/Morrisons/src/test/Resources/search.feature:13[0m
+    [32mGiven [0m[32mUser is on homepage[0m                       [90m# StepDefProducts.user_is_on_homepage()[0m
+    [32mWhen [0m[32mUser search for the "[0m[32m[1mBread[0m[32m"[0m                [90m# StepDefProducts.user_search_for_the(String)[0m
+    [32mAnd [0m[32mselect the required product[0m                 [90m# StepDefProducts.select_the_required_product()[0m
+    [32mThen [0m[32mUser should put selected items in baskets.[0m [90m# StepDefProducts.user_should_put_selected_items_in_baskets()[0m

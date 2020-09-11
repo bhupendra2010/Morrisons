@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="38.927059">
+<testcase classname="User want to do grocery shopping" name="Grocery Shopping" time="14.142936">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+When User search for the "Milk".............................................passed
+And select the required product.............................................passed
+Then User should put selected items in baskets..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User want to do grocery shopping" name="Grocery Shopping 2" time="12.247528">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+When User search for the "Butter"...........................................passed
+And select the required product.............................................passed
+Then User should put selected items in baskets..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User want to do grocery shopping" name="Grocery Shopping 3" time="12.536595">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+When User search for the "Bread"............................................passed
+And select the required product.............................................passed
+Then User should put selected items in baskets..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
